@@ -1,0 +1,19 @@
+<!--Get the common template from the base.html file-->
+{% extends "base.html" %}
+
+<!--Fill the content block-->
+{% block content %}
+  <!--Define a section as a Bootstrap container-->
+  <div class="container">
+    <!--Display a header with the predicted class name and add a horizontal line-->
+    <h1>Predicted Class: {{ result.class_name }}</h1>
+    <hr>
+    <div>
+      <!--Display the saved image as the "img-rounded" class from Bootstrap-->
+      <img src="{{ result.image_path }}" class="img-rounded"
+      width="400" height="auto">
+    </div>
+    <!--Add a button to go back to the main page-->
+    <a href="{{ url_for('index') }}" class="btn btn-default">Back</a>
+  </div>
+{% endblock %}
