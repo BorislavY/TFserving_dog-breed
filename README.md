@@ -25,5 +25,5 @@ Open the application by going to [localhost port 5000](http://127.0.0.1:5000/).
 
 Choose a file and upload it to get a prediction:
 
-![This GIF died :(](https://media.giphy.com/media/XCyl3Ik6GDxMiXSHEL/giphy.gif)
+![This GIF died :(](https://media.giphy.com/media/XCyl3Ik6GDxMiXSHEL/source.gif)
 
